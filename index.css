@@ -2,17 +2,17 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #fff0f5; /* lavanda clara */
-    color: #333;
+    background-color: #121212; /* fondo negro oscuro */
+    color: #e0e0e0; /* texto claro */
     line-height: 1.6;
 }
 
 header {
-    background-color: #d291bc; /* rosa elegante */
-    color: white;
+    background-color: #1f1f1f; /* header más oscuro */
+    color: #f8c8dc; /* texto rosa claro */
     text-align: center;
     padding: 2rem;
-    border-bottom: 5px solid #b56576;
+    border-bottom: 5px solid #8b2e6c; /* borde morado elegante */
 }
 
 header h1 {
@@ -26,13 +26,13 @@ main {
     max-width: 900px;
     margin: 2rem auto;
     padding: 2rem;
-    background: white;
+    background: #1e1e1e; /* fondo de contenido oscuro */
     border-radius: 15px;
-    box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.5);
 }
 
 h2, h3, h4 {
-    color: #a64ca6;
+    color: #f8c8dc; /* títulos en rosa suave */
     margin-top: 1.5rem;
 }
 
@@ -42,28 +42,38 @@ p {
 }
 
 .bibliografia {
-    background: #f8e1f4;
+    background: #2a2a2a; /* fondo gris oscuro */
     padding: 1.2rem;
-    border-left: 6px solid #a64ca6;
+    border-left: 6px solid #8b2e6c; /* borde morado */
     border-radius: 10px;
-    overflow-x: auto; /* Permite scroll horizontal si algo se sale */
+    overflow-x: auto; 
 }
 
 .bibliografia ul {
     margin: 0;
-    padding-left: 1rem; /* Reducido para móviles */
+    padding-left: 1rem;
 }
 
 .bibliografia li {
     margin-bottom: 0.8rem;
+    color: #e0e0e0; /* texto claro dentro de la bibliografía */
+}
+
+.bibliografia a {
+    color: #f8c8dc; /* enlaces en rosa */
+    text-decoration: none;
+}
+
+.bibliografia a:hover {
+    text-decoration: underline;
 }
 
 footer {
     text-align: center;
     padding: 1rem;
     margin-top: 2rem;
-    background-color: #d291bc;
-    color: white;
+    background-color: #1f1f1f;
+    color: #f8c8dc;
     font-size: 0.9rem;
 }
 
@@ -75,7 +85,7 @@ img {
     height: 250px;
     object-fit: cover;
     border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.7); /* sombra más visible en dark mode */
 }
 
 /* Media Queries para pantallas pequeñas */
@@ -95,7 +105,7 @@ img {
 
     img {
         width: 100%;
-        height: auto; /* Mantiene la proporción en móviles */
+        height: auto;
     }
 
     .bibliografia ul {
