@@ -1,0 +1,92 @@
+ body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff0f5; /* lavanda clara */
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Encabezado con diseño elegante */
+        header {
+            background-color: #d291bc; /* rosa elegante */
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            border-bottom: 5px solid #b56576;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3rem;
+            letter-spacing: 2px;
+            font-weight: bold;
+        }
+
+        header p {
+            margin: 0.5rem 0 0;
+            font-size: 1.2rem;
+            font-style: italic;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+        }
+
+        h2, h3, h4 {
+            color: #a64ca6;
+            margin-top: 1.5rem;
+        }
+
+        p {
+            text-align: justify;
+            margin-bottom: 1rem;
+        }
+
+        .bibliografia {
+            background: #f8e1f4;
+            padding: 1.2rem;
+            border-left: 6px solid #a64ca6;
+            border-radius: 10px;
+        }
+
+        .bibliografia ul {
+            margin: 0;
+            padding-left: 1.5rem;
+        }
+
+        .bibliografia li {
+            margin-bottom: 0.8rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+            background-color: #d291bc;
+            color: white;
+            font-size: 0.9rem;
+        }
+
+        ul {
+            margin: 0;
+            padding-left: 1.5rem;
+        }
+        img {
+    display: block;           /* Para que se comporte como bloque */
+    margin: 1.5rem auto;      /* Centrado automático */
+    max-width: 100%;          /* Que no se salga del contenedor */
+    width: 400px;             /* Tamaño uniforme */
+    height: 250px;            /* Altura uniforme */
+    object-fit: cover;        /* Ajusta la imagen sin deformarla */
+    border-radius: 10px;      /* Opcional: bordes redondeados */
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2); /* Opcional: sombra */
+}
+
+
+        
