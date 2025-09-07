@@ -46,11 +46,12 @@ p {
     padding: 1.2rem;
     border-left: 6px solid #a64ca6;
     border-radius: 10px;
+    overflow-x: auto; /* Permite scroll horizontal si algo se sale */
 }
 
 .bibliografia ul {
     margin: 0;
-    padding-left: 1.5rem;
+    padding-left: 1rem; /* Reducido para móviles */
 }
 
 .bibliografia li {
@@ -75,4 +76,29 @@ img {
     object-fit: cover;
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Media Queries para pantallas pequeñas */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    main {
+        padding: 1rem;
+        margin: 1rem;
+    }
+
+    .bibliografia {
+        padding: 0.8rem;
+    }
+
+    img {
+        width: 100%;
+        height: auto; /* Mantiene la proporción en móviles */
+    }
+
+    .bibliografia ul {
+        padding-left: 0.5rem;
+    }
 }
